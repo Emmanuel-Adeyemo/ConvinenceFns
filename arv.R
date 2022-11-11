@@ -9,7 +9,7 @@ arv <- function(dat){
     if(is.numeric(dat[,i])){
       dat[sapply(dat, is.numeric)]
       x_name <- paste0(x, "_arv")
-      dat[,x_name] <-  100+(sapply(dat[,x], mean) - mean(dat[,x]))/sd(dat[,x])*10
+      dat[,x_name] <-  round((100+(sapply(dat[,x], mean) - mean(dat[,x]))/sd(dat[,x])*10),0)
     }
   }
   
