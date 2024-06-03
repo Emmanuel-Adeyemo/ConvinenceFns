@@ -5,7 +5,6 @@ library(btsatr)
 library(LaunchR)
 library(stringr)
 
-setwd("C:/Users/gzp242/OneDrive - Corteva/Documents/Projects/Multivariate")
 
 ########################################
 
